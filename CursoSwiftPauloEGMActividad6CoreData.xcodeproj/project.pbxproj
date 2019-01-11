@@ -49,17 +49,17 @@
 		843EC93F21E66D2400167A20 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		843EC94121E6828F00167A20 /* EmployeesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesTableViewController.swift; sourceTree = "<group>"; };
 		843EC94321E682D300167A20 /* MapRouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRouteViewController.swift; sourceTree = "<group>"; };
-		84743CD321E3A12200B7D6A3 /* CursoSwiftPauloEGMActividad5Mapas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoSwiftPauloEGMActividad5Mapas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84743CD321E3A12200B7D6A3 /* CursoSwiftPauloEGMActividad6CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoSwiftPauloEGMActividad6CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84743CD621E3A12200B7D6A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84743CD821E3A12200B7D6A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84743CDB21E3A12200B7D6A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84743CDD21E3A12300B7D6A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84743CE021E3A12300B7D6A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84743CE221E3A12300B7D6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84743CE721E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad5MapasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursoSwiftPauloEGMActividad5MapasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84743CE721E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad6CoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursoSwiftPauloEGMActividad6CoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84743CEB21E3A12300B7D6A3 /* CursoSwiftSeguimientoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoSwiftSeguimientoTests.swift; sourceTree = "<group>"; };
 		84743CED21E3A12300B7D6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84743CF221E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad5MapasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursoSwiftPauloEGMActividad5MapasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84743CF221E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad6CoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursoSwiftPauloEGMActividad6CoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84743CF621E3A12400B7D6A3 /* CursoSwiftSeguimientoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoSwiftSeguimientoUITests.swift; sourceTree = "<group>"; };
 		84743CF821E3A12400B7D6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84743D0921E3B85500B7D6A3 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
@@ -121,9 +121,9 @@
 		84743CD421E3A12200B7D6A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84743CD321E3A12200B7D6A3 /* CursoSwiftPauloEGMActividad5Mapas.app */,
-				84743CE721E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad5MapasTests.xctest */,
-				84743CF221E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad5MapasUITests.xctest */,
+				84743CD321E3A12200B7D6A3 /* CursoSwiftPauloEGMActividad6CoreData.app */,
+				84743CE721E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad6CoreDataTests.xctest */,
+				84743CF221E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad6CoreDataUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -204,9 +204,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84743CD221E3A12200B7D6A3 /* CursoSwiftPauloEGMActividad5Mapas */ = {
+		84743CD221E3A12200B7D6A3 /* CursoSwiftPauloEGMActividad6CoreData */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84743CFB21E3A12400B7D6A3 /* Build configuration list for PBXNativeTarget "CursoSwiftPauloEGMActividad5Mapas" */;
+			buildConfigurationList = 84743CFB21E3A12400B7D6A3 /* Build configuration list for PBXNativeTarget "CursoSwiftPauloEGMActividad6CoreData" */;
 			buildPhases = (
 				84743CCF21E3A12200B7D6A3 /* Sources */,
 				84743CD021E3A12200B7D6A3 /* Frameworks */,
@@ -216,14 +216,14 @@
 			);
 			dependencies = (
 			);
-			name = CursoSwiftPauloEGMActividad5Mapas;
+			name = CursoSwiftPauloEGMActividad6CoreData;
 			productName = CursoSwiftSeguimiento;
-			productReference = 84743CD321E3A12200B7D6A3 /* CursoSwiftPauloEGMActividad5Mapas.app */;
+			productReference = 84743CD321E3A12200B7D6A3 /* CursoSwiftPauloEGMActividad6CoreData.app */;
 			productType = "com.apple.product-type.application";
 		};
-		84743CE621E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad5MapasTests */ = {
+		84743CE621E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad6CoreDataTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84743CFE21E3A12400B7D6A3 /* Build configuration list for PBXNativeTarget "CursoSwiftPauloEGMActividad5MapasTests" */;
+			buildConfigurationList = 84743CFE21E3A12400B7D6A3 /* Build configuration list for PBXNativeTarget "CursoSwiftPauloEGMActividad6CoreDataTests" */;
 			buildPhases = (
 				84743CE321E3A12300B7D6A3 /* Sources */,
 				84743CE421E3A12300B7D6A3 /* Frameworks */,
@@ -234,14 +234,14 @@
 			dependencies = (
 				84743CE921E3A12300B7D6A3 /* PBXTargetDependency */,
 			);
-			name = CursoSwiftPauloEGMActividad5MapasTests;
+			name = CursoSwiftPauloEGMActividad6CoreDataTests;
 			productName = CursoSwiftSeguimientoTests;
-			productReference = 84743CE721E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad5MapasTests.xctest */;
+			productReference = 84743CE721E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad6CoreDataTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		84743CF121E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad5MapasUITests */ = {
+		84743CF121E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad6CoreDataUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84743D0121E3A12400B7D6A3 /* Build configuration list for PBXNativeTarget "CursoSwiftPauloEGMActividad5MapasUITests" */;
+			buildConfigurationList = 84743D0121E3A12400B7D6A3 /* Build configuration list for PBXNativeTarget "CursoSwiftPauloEGMActividad6CoreDataUITests" */;
 			buildPhases = (
 				84743CEE21E3A12300B7D6A3 /* Sources */,
 				84743CEF21E3A12300B7D6A3 /* Frameworks */,
@@ -252,9 +252,9 @@
 			dependencies = (
 				84743CF421E3A12300B7D6A3 /* PBXTargetDependency */,
 			);
-			name = CursoSwiftPauloEGMActividad5MapasUITests;
+			name = CursoSwiftPauloEGMActividad6CoreDataUITests;
 			productName = CursoSwiftSeguimientoUITests;
-			productReference = 84743CF221E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad5MapasUITests.xctest */;
+			productReference = 84743CF221E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad6CoreDataUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -280,7 +280,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 84743CCE21E3A12200B7D6A3 /* Build configuration list for PBXProject "CursoSwiftPauloEGMActividad5Mapas" */;
+			buildConfigurationList = 84743CCE21E3A12200B7D6A3 /* Build configuration list for PBXProject "CursoSwiftPauloEGMActividad6CoreData" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -293,9 +293,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84743CD221E3A12200B7D6A3 /* CursoSwiftPauloEGMActividad5Mapas */,
-				84743CE621E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad5MapasTests */,
-				84743CF121E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad5MapasUITests */,
+				84743CD221E3A12200B7D6A3 /* CursoSwiftPauloEGMActividad6CoreData */,
+				84743CE621E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad6CoreDataTests */,
+				84743CF121E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad6CoreDataUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -370,12 +370,12 @@
 /* Begin PBXTargetDependency section */
 		84743CE921E3A12300B7D6A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84743CD221E3A12200B7D6A3 /* CursoSwiftPauloEGMActividad5Mapas */;
+			target = 84743CD221E3A12200B7D6A3 /* CursoSwiftPauloEGMActividad6CoreData */;
 			targetProxy = 84743CE821E3A12300B7D6A3 /* PBXContainerItemProxy */;
 		};
 		84743CF421E3A12300B7D6A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84743CD221E3A12200B7D6A3 /* CursoSwiftPauloEGMActividad5Mapas */;
+			target = 84743CD221E3A12200B7D6A3 /* CursoSwiftPauloEGMActividad6CoreData */;
 			targetProxy = 84743CF321E3A12300B7D6A3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -566,7 +566,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CursoSwiftPauloEGMActividad5Mapas.app/CursoSwiftPauloEGMActividad5Mapas";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CursoSwiftPauloEGMActividad6CoreData.app/CursoSwiftPauloEGMActividad6CoreData";
 			};
 			name = Debug;
 		};
@@ -586,7 +586,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CursoSwiftPauloEGMActividad5Mapas.app/CursoSwiftPauloEGMActividad5Mapas";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CursoSwiftPauloEGMActividad6CoreData.app/CursoSwiftPauloEGMActividad6CoreData";
 			};
 			name = Release;
 		};
@@ -631,7 +631,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84743CCE21E3A12200B7D6A3 /* Build configuration list for PBXProject "CursoSwiftPauloEGMActividad5Mapas" */ = {
+		84743CCE21E3A12200B7D6A3 /* Build configuration list for PBXProject "CursoSwiftPauloEGMActividad6CoreData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84743CF921E3A12400B7D6A3 /* Debug */,
@@ -640,7 +640,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84743CFB21E3A12400B7D6A3 /* Build configuration list for PBXNativeTarget "CursoSwiftPauloEGMActividad5Mapas" */ = {
+		84743CFB21E3A12400B7D6A3 /* Build configuration list for PBXNativeTarget "CursoSwiftPauloEGMActividad6CoreData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84743CFC21E3A12400B7D6A3 /* Debug */,
@@ -649,7 +649,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84743CFE21E3A12400B7D6A3 /* Build configuration list for PBXNativeTarget "CursoSwiftPauloEGMActividad5MapasTests" */ = {
+		84743CFE21E3A12400B7D6A3 /* Build configuration list for PBXNativeTarget "CursoSwiftPauloEGMActividad6CoreDataTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84743CFF21E3A12400B7D6A3 /* Debug */,
@@ -658,7 +658,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84743D0121E3A12400B7D6A3 /* Build configuration list for PBXNativeTarget "CursoSwiftPauloEGMActividad5MapasUITests" */ = {
+		84743D0121E3A12400B7D6A3 /* Build configuration list for PBXNativeTarget "CursoSwiftPauloEGMActividad6CoreDataUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84743D0221E3A12400B7D6A3 /* Debug */,
