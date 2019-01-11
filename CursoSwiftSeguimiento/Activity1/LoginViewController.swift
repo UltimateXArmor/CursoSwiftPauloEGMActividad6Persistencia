@@ -30,7 +30,7 @@ class LoginViewController: UIViewController {
     */
     @IBAction func loginAction(_ sender: Any) {
         //let success = Configurations.users.filter({$0.email == user && $0.pass == pass}).first
-        guard let user = userTextField.text, user.count > 0, let pass = passwordTextField.text?.data(using: .utf8), pass.count > 0  else {
+        guard let user = userTextField.text, user.count > 0, let pass = passwordTextField.text, pass.count > 0  else {
             let alert = UIAlertController(title: "Advertencia", message: "Datos incorrectos.", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: NSLocalizedString("Aceptar", comment: "Default action"), style: .default, handler: { _ in
                 NSLog("The \"OK\" alert occured.")
@@ -39,7 +39,28 @@ class LoginViewController: UIViewController {
             return
         }
 
-        let logEmail = "username=\(user)&&password=\(pass.base64EncodedString())"
+        if user == "demo" && pass == "demo" {
+            let alert = UIAlertController(title: "Éxito", message: "Logueo correcto", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: NSLocalizedString("Aceptar", comment: "Default action"), style: .default, handler: { _ in
+                NSLog("The \"OK\" alert occured.")
+                self.performSegue(withIdentifier: "mainMenuIdentifier2", sender: nil)
+            }))
+            
+            DispatchQueue.main.async {
+                self.present(alert, animated: true, completion: nil)
+            }
+        } else {
+            let alert = UIAlertController(title: "Advertencia", message: "Datos de usuario y/o contraseña inválidos", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: NSLocalizedString("Aceptar", comment: "Default action"), style: .default, handler: { _ in
+                NSLog("The \"OK\" alert occured.")
+            }))
+            
+            DispatchQueue.main.async {
+                self.present(alert, animated: true, completion: nil)
+            }
+        }
+        
+        /*let logEmail = "username=\(user)&&password=\(pass.base64EncodedString())"
         
         var request = URLRequest(url: NSURL(string: "http:develogeeks.com/beFunkey/api/User/login.php?\(logEmail)")! as URL)
         request.httpMethod = "POST"
@@ -54,7 +75,7 @@ class LoginViewController: UIViewController {
                                 let alert = UIAlertController(title: "Advertencia", message: "Logueo correcto", preferredStyle: .alert)
                                 alert.addAction(UIAlertAction(title: NSLocalizedString("Aceptar", comment: "Default action"), style: .default, handler: { _ in
                                     NSLog("The \"OK\" alert occured.")
-                                    self.performSegue(withIdentifier: "mainMenuIdentifier", sender: nil)
+                                    self.performSegue(withIdentifier: "mainMenuIdentifier2", sender: nil)
                                 }))
                                 
                                 DispatchQueue.main.async {
@@ -90,7 +111,7 @@ class LoginViewController: UIViewController {
             }
         }
         
-        task.resume()
+        task.resume()*/
     }
     //http:develogeeks.com/beFunkey/api/User/login.php?username=email&password=pass
 }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		843EC94021E66D2400167A20 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843EC93F21E66D2400167A20 /* MapViewController.swift */; };
+		843EC94221E6828F00167A20 /* EmployeesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843EC94121E6828F00167A20 /* EmployeesTableViewController.swift */; };
+		843EC94421E682D300167A20 /* MapRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843EC94321E682D300167A20 /* MapRouteViewController.swift */; };
 		84743CD721E3A12200B7D6A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84743CD621E3A12200B7D6A3 /* AppDelegate.swift */; };
 		84743CD921E3A12200B7D6A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84743CD821E3A12200B7D6A3 /* ViewController.swift */; };
 		84743CDC21E3A12200B7D6A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84743CDA21E3A12200B7D6A3 /* Main.storyboard */; };
@@ -21,6 +24,8 @@
 		84743D1421E3D79200B7D6A3 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84743D1321E3D79200B7D6A3 /* RegisterViewController.swift */; };
 		84743D1621E3D7B000B7D6A3 /* RecoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84743D1521E3D7B000B7D6A3 /* RecoverViewController.swift */; };
 		84743D1821E3D7BC00B7D6A3 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84743D1721E3D7BC00B7D6A3 /* MainMenuViewController.swift */; };
+		84F561E021E7AFEA00055185 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84F561DE21E7AFEA00055185 /* Model.xcdatamodeld */; };
+		84F561E321E7BD7A00055185 /* EditEmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F561E221E7BD7A00055185 /* EditEmployeeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,17 +46,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		84743CD321E3A12200B7D6A3 /* CursoSwiftSeguimiento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoSwiftSeguimiento.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		843EC93F21E66D2400167A20 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		843EC94121E6828F00167A20 /* EmployeesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesTableViewController.swift; sourceTree = "<group>"; };
+		843EC94321E682D300167A20 /* MapRouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRouteViewController.swift; sourceTree = "<group>"; };
+		84743CD321E3A12200B7D6A3 /* CursoSwiftPauloEGMActividad5Mapas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoSwiftPauloEGMActividad5Mapas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84743CD621E3A12200B7D6A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84743CD821E3A12200B7D6A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84743CDB21E3A12200B7D6A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84743CDD21E3A12300B7D6A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84743CE021E3A12300B7D6A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84743CE221E3A12300B7D6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84743CE721E3A12300B7D6A3 /* CursoSwiftSeguimientoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursoSwiftSeguimientoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84743CE721E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad5MapasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursoSwiftPauloEGMActividad5MapasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84743CEB21E3A12300B7D6A3 /* CursoSwiftSeguimientoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoSwiftSeguimientoTests.swift; sourceTree = "<group>"; };
 		84743CED21E3A12300B7D6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84743CF221E3A12300B7D6A3 /* CursoSwiftSeguimientoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursoSwiftSeguimientoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84743CF221E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad5MapasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursoSwiftPauloEGMActividad5MapasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84743CF621E3A12400B7D6A3 /* CursoSwiftSeguimientoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoSwiftSeguimientoUITests.swift; sourceTree = "<group>"; };
 		84743CF821E3A12400B7D6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84743D0921E3B85500B7D6A3 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
@@ -61,6 +69,8 @@
 		84743D1321E3D79200B7D6A3 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		84743D1521E3D7B000B7D6A3 /* RecoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverViewController.swift; sourceTree = "<group>"; };
 		84743D1721E3D7BC00B7D6A3 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		84F561DF21E7AFEA00055185 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		84F561E221E7BD7A00055185 /* EditEmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEmployeeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +98,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		843EC93E21E66D1000167A20 /* Activity5 */ = {
+			isa = PBXGroup;
+			children = (
+				843EC93F21E66D2400167A20 /* MapViewController.swift */,
+				843EC94121E6828F00167A20 /* EmployeesTableViewController.swift */,
+				843EC94321E682D300167A20 /* MapRouteViewController.swift */,
+			);
+			path = Activity5;
+			sourceTree = "<group>";
+		};
 		84743CCA21E3A12200B7D6A3 = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +121,9 @@
 		84743CD421E3A12200B7D6A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84743CD321E3A12200B7D6A3 /* CursoSwiftSeguimiento.app */,
-				84743CE721E3A12300B7D6A3 /* CursoSwiftSeguimientoTests.xctest */,
-				84743CF221E3A12300B7D6A3 /* CursoSwiftSeguimientoUITests.xctest */,
+				84743CD321E3A12200B7D6A3 /* CursoSwiftPauloEGMActividad5Mapas.app */,
+				84743CE721E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad5MapasTests.xctest */,
+				84743CF221E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad5MapasUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,10 +131,13 @@
 		84743CD521E3A12200B7D6A3 /* CursoSwiftSeguimiento */ = {
 			isa = PBXGroup;
 			children = (
+				84F561E121E7BD6400055185 /* Activity6 */,
+				843EC93E21E66D1000167A20 /* Activity5 */,
 				84743D1021E3D50900B7D6A3 /* Activity1 */,
 				84743D0D21E3D2E400B7D6A3 /* Modelo */,
 				84743D0421E3A6F400B7D6A3 /* Ejemplo1 */,
 				84743CD621E3A12200B7D6A3 /* AppDelegate.swift */,
+				84F561DE21E7AFEA00055185 /* Model.xcdatamodeld */,
 				84743CD821E3A12200B7D6A3 /* ViewController.swift */,
 				84743CDA21E3A12200B7D6A3 /* Main.storyboard */,
 				84743CDD21E3A12300B7D6A3 /* Assets.xcassets */,
@@ -170,12 +193,20 @@
 			path = Activity1;
 			sourceTree = "<group>";
 		};
+		84F561E121E7BD6400055185 /* Activity6 */ = {
+			isa = PBXGroup;
+			children = (
+				84F561E221E7BD7A00055185 /* EditEmployeeViewController.swift */,
+			);
+			path = Activity6;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84743CD221E3A12200B7D6A3 /* CursoSwiftSeguimiento */ = {
+		84743CD221E3A12200B7D6A3 /* CursoSwiftPauloEGMActividad5Mapas */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84743CFB21E3A12400B7D6A3 /* Build configuration list for PBXNativeTarget "CursoSwiftSeguimiento" */;
+			buildConfigurationList = 84743CFB21E3A12400B7D6A3 /* Build configuration list for PBXNativeTarget "CursoSwiftPauloEGMActividad5Mapas" */;
 			buildPhases = (
 				84743CCF21E3A12200B7D6A3 /* Sources */,
 				84743CD021E3A12200B7D6A3 /* Frameworks */,
@@ -185,14 +216,14 @@
 			);
 			dependencies = (
 			);
-			name = CursoSwiftSeguimiento;
+			name = CursoSwiftPauloEGMActividad5Mapas;
 			productName = CursoSwiftSeguimiento;
-			productReference = 84743CD321E3A12200B7D6A3 /* CursoSwiftSeguimiento.app */;
+			productReference = 84743CD321E3A12200B7D6A3 /* CursoSwiftPauloEGMActividad5Mapas.app */;
 			productType = "com.apple.product-type.application";
 		};
-		84743CE621E3A12300B7D6A3 /* CursoSwiftSeguimientoTests */ = {
+		84743CE621E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad5MapasTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84743CFE21E3A12400B7D6A3 /* Build configuration list for PBXNativeTarget "CursoSwiftSeguimientoTests" */;
+			buildConfigurationList = 84743CFE21E3A12400B7D6A3 /* Build configuration list for PBXNativeTarget "CursoSwiftPauloEGMActividad5MapasTests" */;
 			buildPhases = (
 				84743CE321E3A12300B7D6A3 /* Sources */,
 				84743CE421E3A12300B7D6A3 /* Frameworks */,
@@ -203,14 +234,14 @@
 			dependencies = (
 				84743CE921E3A12300B7D6A3 /* PBXTargetDependency */,
 			);
-			name = CursoSwiftSeguimientoTests;
+			name = CursoSwiftPauloEGMActividad5MapasTests;
 			productName = CursoSwiftSeguimientoTests;
-			productReference = 84743CE721E3A12300B7D6A3 /* CursoSwiftSeguimientoTests.xctest */;
+			productReference = 84743CE721E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad5MapasTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		84743CF121E3A12300B7D6A3 /* CursoSwiftSeguimientoUITests */ = {
+		84743CF121E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad5MapasUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84743D0121E3A12400B7D6A3 /* Build configuration list for PBXNativeTarget "CursoSwiftSeguimientoUITests" */;
+			buildConfigurationList = 84743D0121E3A12400B7D6A3 /* Build configuration list for PBXNativeTarget "CursoSwiftPauloEGMActividad5MapasUITests" */;
 			buildPhases = (
 				84743CEE21E3A12300B7D6A3 /* Sources */,
 				84743CEF21E3A12300B7D6A3 /* Frameworks */,
@@ -221,9 +252,9 @@
 			dependencies = (
 				84743CF421E3A12300B7D6A3 /* PBXTargetDependency */,
 			);
-			name = CursoSwiftSeguimientoUITests;
+			name = CursoSwiftPauloEGMActividad5MapasUITests;
 			productName = CursoSwiftSeguimientoUITests;
-			productReference = 84743CF221E3A12300B7D6A3 /* CursoSwiftSeguimientoUITests.xctest */;
+			productReference = 84743CF221E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad5MapasUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -249,7 +280,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 84743CCE21E3A12200B7D6A3 /* Build configuration list for PBXProject "CursoSwiftSeguimiento" */;
+			buildConfigurationList = 84743CCE21E3A12200B7D6A3 /* Build configuration list for PBXProject "CursoSwiftPauloEGMActividad5Mapas" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -262,9 +293,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84743CD221E3A12200B7D6A3 /* CursoSwiftSeguimiento */,
-				84743CE621E3A12300B7D6A3 /* CursoSwiftSeguimientoTests */,
-				84743CF121E3A12300B7D6A3 /* CursoSwiftSeguimientoUITests */,
+				84743CD221E3A12200B7D6A3 /* CursoSwiftPauloEGMActividad5Mapas */,
+				84743CE621E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad5MapasTests */,
+				84743CF121E3A12300B7D6A3 /* CursoSwiftPauloEGMActividad5MapasUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -304,11 +335,16 @@
 				84743D1821E3D7BC00B7D6A3 /* MainMenuViewController.swift in Sources */,
 				84743D1221E3D78700B7D6A3 /* LoginViewController.swift in Sources */,
 				84743CD921E3A12200B7D6A3 /* ViewController.swift in Sources */,
+				843EC94021E66D2400167A20 /* MapViewController.swift in Sources */,
+				843EC94221E6828F00167A20 /* EmployeesTableViewController.swift in Sources */,
 				84743D1421E3D79200B7D6A3 /* RegisterViewController.swift in Sources */,
 				84743D1621E3D7B000B7D6A3 /* RecoverViewController.swift in Sources */,
+				843EC94421E682D300167A20 /* MapRouteViewController.swift in Sources */,
 				84743CD721E3A12200B7D6A3 /* AppDelegate.swift in Sources */,
 				84743D0C21E3BA1200B7D6A3 /* ViewController3.swift in Sources */,
 				84743D0F21E3D33700B7D6A3 /* User.swift in Sources */,
+				84F561E021E7AFEA00055185 /* Model.xcdatamodeld in Sources */,
+				84F561E321E7BD7A00055185 /* EditEmployeeViewController.swift in Sources */,
 				84743D0A21E3B85500B7D6A3 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,12 +370,12 @@
 /* Begin PBXTargetDependency section */
 		84743CE921E3A12300B7D6A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84743CD221E3A12200B7D6A3 /* CursoSwiftSeguimiento */;
+			target = 84743CD221E3A12200B7D6A3 /* CursoSwiftPauloEGMActividad5Mapas */;
 			targetProxy = 84743CE821E3A12300B7D6A3 /* PBXContainerItemProxy */;
 		};
 		84743CF421E3A12300B7D6A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84743CD221E3A12200B7D6A3 /* CursoSwiftSeguimiento */;
+			target = 84743CD221E3A12200B7D6A3 /* CursoSwiftPauloEGMActividad5Mapas */;
 			targetProxy = 84743CF321E3A12300B7D6A3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -530,7 +566,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CursoSwiftSeguimiento.app/CursoSwiftSeguimiento";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CursoSwiftPauloEGMActividad5Mapas.app/CursoSwiftPauloEGMActividad5Mapas";
 			};
 			name = Debug;
 		};
@@ -550,7 +586,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CursoSwiftSeguimiento.app/CursoSwiftSeguimiento";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CursoSwiftPauloEGMActividad5Mapas.app/CursoSwiftPauloEGMActividad5Mapas";
 			};
 			name = Release;
 		};
@@ -595,7 +631,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84743CCE21E3A12200B7D6A3 /* Build configuration list for PBXProject "CursoSwiftSeguimiento" */ = {
+		84743CCE21E3A12200B7D6A3 /* Build configuration list for PBXProject "CursoSwiftPauloEGMActividad5Mapas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84743CF921E3A12400B7D6A3 /* Debug */,
@@ -604,7 +640,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84743CFB21E3A12400B7D6A3 /* Build configuration list for PBXNativeTarget "CursoSwiftSeguimiento" */ = {
+		84743CFB21E3A12400B7D6A3 /* Build configuration list for PBXNativeTarget "CursoSwiftPauloEGMActividad5Mapas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84743CFC21E3A12400B7D6A3 /* Debug */,
@@ -613,7 +649,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84743CFE21E3A12400B7D6A3 /* Build configuration list for PBXNativeTarget "CursoSwiftSeguimientoTests" */ = {
+		84743CFE21E3A12400B7D6A3 /* Build configuration list for PBXNativeTarget "CursoSwiftPauloEGMActividad5MapasTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84743CFF21E3A12400B7D6A3 /* Debug */,
@@ -622,7 +658,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84743D0121E3A12400B7D6A3 /* Build configuration list for PBXNativeTarget "CursoSwiftSeguimientoUITests" */ = {
+		84743D0121E3A12400B7D6A3 /* Build configuration list for PBXNativeTarget "CursoSwiftPauloEGMActividad5MapasUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84743D0221E3A12400B7D6A3 /* Debug */,
@@ -632,6 +668,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84F561DE21E7AFEA00055185 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84F561DF21E7AFEA00055185 /* Model.xcdatamodel */,
+			);
+			currentVersion = 84F561DF21E7AFEA00055185 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 84743CCB21E3A12200B7D6A3 /* Project object */;
 }

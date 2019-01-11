@@ -59,6 +59,21 @@ class RegisterViewController: UIViewController {
             newUser.empNumber = empNumber
             Configurations.users.append(newUser)
             
+            let appDelegate = UIApplication.shared.delegate as! AppDelegate
+            let context = appDelegate.persistentContainer.viewContext
+            
+            //let user = User(context: context)
+            //user.name = "Roger"
+            //appDelegate.saveContext()
+            let nuser = UserObject(context: context)
+            nuser.name = tname
+            nuser.email = temail
+            nuser.pass = password
+            nuser.birthday = date
+            nuser.phone = phone
+            nuser.empNumber = empNumber
+            appDelegate.saveContext()
+            
             let alert = UIAlertController(title: "Advertencia", message: "Registro exitoso.", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: NSLocalizedString("Aceptar", comment: "Default action"), style: .default, handler: { _ in
                 NSLog("The \"OK\" alert occured.")

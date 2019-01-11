@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>CursoSwiftPauloEGMActividad5Mapas</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -35,6 +37,10 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Se utiliza su ubicación para colocarla en el mapa</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Se utiliza su ubicación para colocarla en el mapa y trazar rutas</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>Se guardan fotos ocasionalmente</string>
 	<key>UILaunchStoryboardName</key>
